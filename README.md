@@ -1,6 +1,6 @@
 # Langrisser Millennium WS: The Last Century — English Translation
 
-**Complete English fan translation (v1.0)** for *Langrisser Millennium WS: The Last Century* (ラングリッサーミレニアムWS THE LAST CENTURY), released for the **original monochrome Bandai WonderSwan**.
+We're happy to share our **complete English fan translation (v1.0)** of *Langrisser Millennium WS: The Last Century* (ラングリッサーミレニアムWS THE LAST CENTURY) for the **original monochrome Bandai WonderSwan**.
 
 > **Status: Complete — v1.0 (November 2026).** The older Beta 1 remains available in this repository's release history for archival purposes.
 
@@ -42,10 +42,10 @@ Both output ROMs should remain 1,048,576 bytes. Existing Japanese-game saves are
 
 This was a **team effort**.
 
-- **Translation project:** [wakabayashy](https://github.com/wakabayashy) and team
+- **Translation and project work:** Our team
 - **Collaboration:** [Cloogr](https://retrogametalk.com/members/1163345/)
 - **Playtesting and bug reports:** [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/)
-- **Additional technical and release assistance:** The collaborators credited in the [Swan Revival release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
+- **Additional technical and release assistance:** See the acknowledgements in [our collaborator's release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
 
 Special thanks to everyone who worked on this project, tested it and reported issues!
 
