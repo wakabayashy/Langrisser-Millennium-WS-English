@@ -15,7 +15,7 @@ Download the two optional **BPS patch files** under **Assets** at the bottom of 
 
 **These files are patches, not ROMs.** You only need **one** BPS file to patch your own original Japanese ROM.
 
-This is the same **v1.0** that we released together, also available through [Swan Revival](https://swanrevival.com/translations/langrisser-millennium/) and [our collaborator's GitHub release](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
+This is the same **v1.0** released in collaboration with Cloogr, also available through [Swan Revival](https://swanrevival.com/translations/langrisser-millennium/) and [our collaborator's GitHub release](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
 
 ## What's translated?
 
@@ -67,7 +67,7 @@ For project discussion and bug reports: [Discord](https://discord.gg/qf33SZmpn).
 
 ## Credits
 
-- **Translation and project work:** Our team
+- **Translation and project work:** My independent translation project
 - **Collaboration:** [Cloogr](https://retrogametalk.com/members/1163345/)
 - **Playtesting and bug reports:** [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/)
 - **Technical and release assistance:** See the acknowledgements in [our collaborator's release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
