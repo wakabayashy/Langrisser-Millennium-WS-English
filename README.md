@@ -1,60 +1,66 @@
-# Langrisser Millennium WS - English Translation
+# Langrisser Millennium WS: The Last Century — English Translation
 
-English translation project for **Langrisser Millennium WS - The Last Century** for the Bandai WonderSwan.
+**Complete English fan translation (v1.0)** for *Langrisser Millennium WS: The Last Century* (ラングリッサーミレニアムWS THE LAST CENTURY), released for the **original monochrome Bandai WonderSwan**.
 
-## Project Status
+> **Status: Complete — v1.0 (November 2026).** The older Beta 1 remains available in this repository's release history for archival purposes.
 
-**Current status: Beta**
+## Download the v1.0 patch
 
-The game has been extensively translated and tested, but the complete English version has not yet received a full human playthrough from beginning to end.
+- **[Standard English patch — langrisser-millennium-en-1.0.bps](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/langrisser-millennium-v1.0/langrisser-millennium-en-1.0.bps)**
+- [Optional Test Stage edition — langrisser-millennium-en-teststage-1.0.bps](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/langrisser-millennium-v1.0/langrisser-millennium-en-teststage-1.0.bps)
+- [Official v1.0 release and detailed notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
+- [Swan Revival project page](https://swanrevival.com/translations/langrisser-millennium/)
 
-The purpose of the Beta is to find remaining translation issues, untranslated Japanese text, UI problems, crashes, progression issues, and other bugs.
+**These are BPS patches, not game ROMs.** The downloads above are currently hosted by the collaborating release project; the older Beta 1 downloadable here is **not** the final v1.0 patch.
 
-## Translation
+## What's translated?
 
-The project includes English translations for:
+The v1.0 patch covers the story, all scenarios on both routes (including hidden stages), character and battle dialogue, menus, equipment, items, spells, mercenaries, deployment, save/load screens, class changes, endings and staff credits. The English text renderer and fonts were adapted for the WonderSwan display.
 
-- Story and event dialogue
-- Battle dialogue
-- Menus and battle commands
-- Character information
-- Scenario information and objectives
-- Items and equipment
-- Magic
-- Deployment and mercenary interfaces
-- Save/load interfaces
-- Level-up and class-change screens
-- Results and reward screens
-- Other gameplay UI
+This is an **AI-assisted fan translation**, with human decisions, playtesting and technical QA. Please report awkward text, display issues or bugs if you encounter them.
 
-This is an **AI-assisted translation project**.
+## How to apply the patch
 
-## Beta Testing
+1. Obtain your own copy of the original Japanese *Langrisser Millennium WS - The Last Century* ROM.
+2. Confirm that the original file is **1,048,576 bytes** with CRC32 **`9E0854E2`**.
+3. Open the [Swan Revival browser patcher](https://swanrevival.com/patcher/), or another tool supporting BPS patches (such as Floating IPS).
+4. Select the original Japanese **.ws** ROM and **one** of the v1.0 **.bps** files.
+5. Apply the patch and play the resulting **.ws** file in a WonderSwan emulator or compatible setup.
 
-If you encounter a problem, please report:
+| ROM | CRC32 after patching |
+| --- | --- |
+| English v1.0 (standard) | `66242FE6` |
+| English v1.0 (Test Stage edition) | `527761BF` |
 
-1. A screenshot
-2. The scenario / turn / menu where it happened
-3. What you were doing immediately before the problem appeared
+Both output ROMs should remain 1,048,576 bytes. Existing Japanese-game saves are compatible with the English patch.
 
-Reports of remaining Japanese text and translation errors are especially useful.
+**Optional Test Stage:** In the Test Stage edition, hold any Y button while selecting **Start** at the title screen. The opening and quiz still play first, followed by the hidden development stage.
 
-## Installation
+## Credits
 
-No game ROM is provided by this project.
+This was a **team effort**.
 
-You must provide your own copy of the original Japanese game and apply the translation patch to it.
+- **Translation project:** [wakabayashy](https://github.com/wakabayashy) and team
+- **Collaboration:** [Cloogr](https://retrogametalk.com/members/1163345/)
+- **Playtesting and bug reports:** [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/)
+- **Additional technical and release assistance:** The collaborators credited in the [Swan Revival release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
 
-**Do not redistribute patched ROM files.**
+Special thanks to everyone who worked on this project, tested it and reported issues!
 
-## Discord
+## Screenshots
 
-For beta testing, bug reports and project discussion:
+![Original and English title screens](https://raw.githubusercontent.com/PokemonGoDB/wonderswan-english-patches/main/games/langrisser-millennium/images/01-title.png)
 
-https://discord.gg/qf33SZmpn
+![Original and English dialogue](https://raw.githubusercontent.com/PokemonGoDB/wonderswan-english-patches/main/games/langrisser-millennium/images/04-dialogue.png)
+
+## Feedback and known limitations
+
+The game is lengthy and some rarely encountered situations may still have rough text or display issues. Please report **where** the problem happened, **what** you were doing and a **screenshot** if possible.
+
+The v1.0 release documentation notes that automated testing was performed in an emulator; real-hardware testing was not claimed. See the [official notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) for technical details and remaining limitations.
+
+Project discussion / bug reports: [Discord](https://discord.gg/qf33SZmpn).
 
 ## Disclaimer
 
-This is an unofficial fan translation project.
-
-Langrisser and all related trademarks and copyrighted material belong to their respective owners.
+This is an **unofficial** fan translation. Langrisser and all associated trademarks and game content belong to their respective owners. **No original or patched ROM is distributed by this repository.** Please obtain your own copy of the game and do not redistribute ROM images.
