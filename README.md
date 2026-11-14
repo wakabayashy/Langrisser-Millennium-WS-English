@@ -6,12 +6,14 @@
 
 ## Download the v1.0 patch
 
-- **[Standard English patch — langrisser-millennium-en-1.0.bps](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/langrisser-millennium-v1.0/langrisser-millennium-en-1.0.bps)**
-- [Optional Test Stage edition — langrisser-millennium-en-teststage-1.0.bps](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/langrisser-millennium-v1.0/langrisser-millennium-en-teststage-1.0.bps)
-- [Official v1.0 release and detailed notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
+- **[Our GitHub Release v1.0 — download files and read the release notes](https://github.com/wakabayashy/Langrisser-Millennium-WS-English/releases/tag/v1.0)**
+- **[Standard English patch — langrisser-millennium-en-1.0.bps](https://github.com/wakabayashy/Langrisser-Millennium-WS-English/releases/download/v1.0/langrisser-millennium-en-1.0.bps)**
+- [Optional Test Stage edition — langrisser-millennium-en-teststage-1.0.bps](https://github.com/wakabayashy/Langrisser-Millennium-WS-English/releases/download/v1.0/langrisser-millennium-en-teststage-1.0.bps)
+- [Screenshots ZIP — langrisser-millennium_reddit_images.zip](https://github.com/wakabayashy/Langrisser-Millennium-WS-English/releases/download/v1.0/langrisser-millennium_reddit_images.zip)
+- [Collaborating project's original v1.0 release](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
 - [Swan Revival project page](https://swanrevival.com/translations/langrisser-millennium/)
 
-**These are BPS patches, not game ROMs.** The downloads above are currently hosted by the collaborating release project; the older Beta 1 downloadable here is **not** the final v1.0 patch.
+**These are BPS patches, not game ROMs.** The three assets in our v1.0 release are SHA-256-identical to the collaborating project's release. The older Beta 1 in this repository remains available for archival purposes.
 
 ## What's translated?
 
