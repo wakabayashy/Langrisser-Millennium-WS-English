@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '.github/workflows/publish-langrisser-v1.yml'
+      - 'RELEASE_NOTES_v1.0.md'
   workflow_dispatch:
 
 permissions:
