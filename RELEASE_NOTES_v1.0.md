@@ -2,9 +2,9 @@
 
 **The complete English translation for the original monochrome Bandai WonderSwan is here!**
 
-This translation project was created by [wakabayashy](https://github.com/wakabayashy) and team, in collaboration with [Cloogr](https://retrogametalk.com/members/1163345/).
+In collaboration with [@Cloogr](https://retrogametalk.com/members/1163345/), I'm happy to announce that **we've fully translated Langrisser Millennium for the WonderSwan!**
 
-**Special thanks** to [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/) for playtesting and bug reports. Definitely a team effort!
+**Special thanks** to [@Last_Seraph](https://retrogametalk.com/members/27874/) and [@altaihero](https://retrogametalk.com/members/19247/) for playtesting and bug reports. Definitely a team effort!
 
 ## Download
 
@@ -15,7 +15,7 @@ Download the two optional **BPS patch files** under **Assets** at the bottom of 
 
 **These files are patches, not ROMs.** You only need **one** BPS file to patch your own original Japanese ROM.
 
-This is the same **v1.0** distributed by our collaborating project through [Swan Revival](https://swanrevival.com/translations/langrisser-millennium/) and [the original v1.0 GitHub release](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
+This is the same **v1.0** that we released together, also available through [Swan Revival](https://swanrevival.com/translations/langrisser-millennium/) and [our collaborator's GitHub release](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
 
 ## What's translated?
 
@@ -67,10 +67,10 @@ For project discussion and bug reports: [Discord](https://discord.gg/qf33SZmpn).
 
 ## Credits
 
-- **Translation project:** wakabayashy and team
-- **Collaboration:** Cloogr
-- **Playtesting and bug reports:** Last_Seraph, altaihero
-- **Technical and release assistance:** as documented by the collaborating project in the [original release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
+- **Translation and project work:** Our team
+- **Collaboration:** [Cloogr](https://retrogametalk.com/members/1163345/)
+- **Playtesting and bug reports:** [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/)
+- **Technical and release assistance:** See the acknowledgements in [our collaborator's release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0).
 
 **v1.0 — First public complete release.**
 
