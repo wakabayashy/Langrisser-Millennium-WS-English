@@ -42,7 +42,7 @@ Both output ROMs should remain 1,048,576 bytes. Existing Japanese-game saves are
 
 This was a **team effort**.
 
-- **Translation and project work:** Our team
+- **Translation and project work:** My independent translation project
 - **Collaboration:** [Cloogr](https://retrogametalk.com/members/1163345/)
 - **Playtesting and bug reports:** [Last_Seraph](https://retrogametalk.com/members/27874/) and [altaihero](https://retrogametalk.com/members/19247/)
 - **Additional technical and release assistance:** See the acknowledgements in [our collaborator's release notes](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0)
