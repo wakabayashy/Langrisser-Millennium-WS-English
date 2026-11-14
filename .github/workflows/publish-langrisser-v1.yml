@@ -1,0 +1,48 @@
+name: Publish Langrisser Millennium WS v1.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/publish-langrisser-v1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish verified v1.0 patches
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release notes
+        uses: actions/checkout@v4
+      - name: Download the shared v1.0 artifacts and verify their checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/langrisser-millennium-v1.0'
+          mkdir -p dist
+          curl -fsSL --retry 3 "$base/langrisser-millennium-en-1.0.bps" -o dist/langrisser-millennium-en-1.0.bps
+          curl -fsSL --retry 3 "$base/langrisser-millennium-en-teststage-1.0.bps" -o dist/langrisser-millennium-en-teststage-1.0.bps
+          curl -fsSL --retry 3 "$base/langrisser-millennium_reddit_images.zip" -o dist/langrisser-millennium_reddit_images.zip
+          printf '%s  %s\n' \
+            '21ff676fe9bb8e5c28bff48f8f778d2eb6a6db9b7473b0939c1f80591f638909' dist/langrisser-millennium-en-1.0.bps \
+            '55b8cf82009dbcbfa75e3e327938c7f02c4559530eae373bc632bb2c7cf37378' dist/langrisser-millennium-en-teststage-1.0.bps \
+            'af68f08ec25e010af63320e86b18b4047ca91df68307d7825faf3ba0ef2e5da0' dist/langrisser-millennium_reddit_images.zip | sha256sum --check --status
+          echo 'SHA-256 checks passed for all three official v1.0 release assets.'
+      - name: Publish the v1.0 GitHub Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          title='Langrisser Millennium WS: The Last Century — English Translation v1.0'
+          if gh release view v1.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release edit v1.0 --repo "$GITHUB_REPOSITORY" --title "$title" --notes-file RELEASE_NOTES_v1.0.md --latest
+            gh release upload v1.0 dist/*.bps dist/*.zip --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create v1.0 dist/*.bps dist/*.zip --repo "$GITHUB_REPOSITORY" --title "$title" --notes-file RELEASE_NOTES_v1.0.md --target main --latest
+          fi
+          gh release view v1.0 --repo "$GITHUB_REPOSITORY" --json url,tagName,assets
